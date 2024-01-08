@@ -1,0 +1,46 @@
+:root{
+    --ustozim: darkblue;
+    --height: 23px;
+}
+.card-1{
+    width: 100%;
+    height: var(--height);
+    background-color: var(--ustozim);
+}
+.card-1 p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.card-2{
+    width: 200px;
+    height: 300px;
+    background-color:azure;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-top: 13%;
+    display: inline-block;
+}
+.card-3{
+    width: 100%;
+    height: var(--height);
+    display: flex;
+    margin-top: 10px;
+    gap: 40px;
+    justify-content: center;
+}
+.card-33{
+    width: 100%;
+    height: var(--height);
+    background-color: var(--ustozim);
+    text-align: center;
+    color: #fff;
+    margin-top: 133px;
+}
+
+@media screen and  (max-width: 478px){
+    .card-kotta{
+        margin-left: 80px;
+    }
+}
